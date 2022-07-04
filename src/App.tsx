@@ -1,25 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './custom.css';
+import FinderBox from "./components/finderbox/finderbox";
+import ContentArea from "./components/contentarea/ContentArea";
+import introsections from "./assets/intro.json"
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="App">
+          <div className="wrap">
+              <div id="primary">
+                  <div id="content" role="main">
+                      <ContentArea sections={introsections.sections}></ContentArea>
+                      <FinderBox/>
+                  </div>
+              </div>
+          </div>
+      </div>
   );
 }
 

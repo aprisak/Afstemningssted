@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "section": {
+        "title": "Dit afstemningssted er baseret på din addresse",
+        "content": "<p>bla blab<\p>"
+      },
+    "section": {
+        "title": "Falafel",
+        "content": "lalalala"
+      }
+    }
+  }
+}
