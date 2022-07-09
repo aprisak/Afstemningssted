@@ -1,0 +1,29 @@
+.aboutbox {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: white;
+  opacity: 100%;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  padding: 1em;
+}
+
+.about{
+  right: 2em;
+}
+
+#aboutbutton {
+  font-size: 0.825em;
+}
+
+@media only screen and (max-width: 700px) {
+  .about{
+    right: 0.5em;
+  }
+
+  #aboutbutton {
+    font-size: 0.5em;
+  }
+}

@@ -29,7 +29,7 @@ class FinderBox extends React.Component {
                             <Typography gutterBottom variant="h4" component="div">
                                 Dit Afstemningsted
                             </Typography>
-                            <Typography variant="body2">Indtast en addresse i søgeboksen ovenover.</Typography>
+                            <Typography variant="body2">Indtast din addresse i søgeboksen.</Typography>
                           </CardContent>
         }
         return <Box className='finderbox'>

@@ -1,13 +1,9 @@
 {
-  "sections": {
-    "section": {
-        "title": "Dit afstemningssted er baseret på din addresse",
-        "content": "<p>bla blab<\p>"
-      },
-    "section": {
-        "title": "Falafel",
-        "content": "lalalala"
-      }
+  "sections": [
+    {
+      "title": "Dit afstemningssted er baseret på din addresse",
+      "content": "Du skal altid stemme på det sted som står på det valgkort du modtager før valgdagen, men hvis dit valgkort er blevet væk eller du ikke har modtaget, kan dustadig møde op og stemme til valget. Du kan dog kun stemme på det afstemningssted hvor du er med på valglisten, så det er derfor nødvendigt at vide hvor du skal stemme. Som udgangspunkt er dit afstemningssted baseret på adressen som du er tildelt i CPR registeret. I de aller fleste tilfælde vil det være din nuværende addresse, men hvis du er flyttet tæt på valgdagen skal du bruge den addresse du havde 15 dage før valgdagen (7 dage før valgdagen for kommunal- ot regionalrådsvalg."
+
     }
-  }
+  ]
 }

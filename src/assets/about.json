@@ -1,14 +1,16 @@
 {
-  "sections": {
-    "section": {
-      "intro": {
-        "title": "Dit afstemningssted er baseret på din addresse",
-        "content": "<p>bla blab<\p>"
-      },
-      "section": {
-        "title": "Falafel",
-        "content": "lalalala"
-      }
+  "sections": [
+    {
+      "title": "Hvor kommer data fra?",
+      "content": "Siden benytter data fra Danmarks Adressers Web API (DAWA) som bliver vedligholdt af Datafosyningen. Derudover bliver DAWA addresse autocomplete brugt til at hjælp med addresse indtastning."
+    },
+    {
+      "title": "Kan man se koden til siden?",
+      "content": "Ja koden er delt som et repository på GitHub: <a href=\"https://github.com/aprisak/Afstemningssted\" target=\"_blank\">Github</a>"
+    },
+    {
+      "title": "Bliver der gemt noget data om mig på siden?",
+      "content": "Nej siden gemmer ikke noget data om dit besøg på siden og andvender ingen cookies til sporing."
     }
-  }
+  ]
 }

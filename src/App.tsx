@@ -1,8 +1,9 @@
 import React from 'react';
-import './custom.css';
-import FinderBox from "./components/finderbox/finderbox";
+import './scss/custom.css';
+import FinderBox from "./components/finderbox/FinderBox";
 import ContentArea from "./components/contentarea/ContentArea";
 import introsections from "./assets/intro.json"
+import contentsections from "./assets/content.json"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
                   <div id="content" role="main">
                       <ContentArea sections={introsections.sections}></ContentArea>
                       <FinderBox/>
+                      <ContentArea sections={contentsections.sections}></ContentArea>
                   </div>
               </div>
           </div>

@@ -1,19 +1,25 @@
 import React from "react";
 import {Typography} from "@mui/material";
 
-export interface Section {
+interface Section {
     title: string
     content: string
 }
 
-class ContentArea extends React.Component {
+interface ContentAreaProps {
+    sections: Section[]
+}
+
+class ContentArea extends React.Component<ContentAreaProps, {}> {
+
     render() {
-        const sections: Section[] = this.props.sections;
+        var count:number = 0;
         return(
-            sections.map(section => {
-                return <div>
-                            <Typography variant="h4">{section.title}</Typography>
-                            <Typography variant="body2">{section.content}</Typography>
+            this.props.sections.map(section => {
+                count++;
+                return <div key={count} className="contentarea">
+                            <Typography variant="h6">{section.title}</Typography>
+                            <div dangerouslySetInnerHTML={{__html:section.content}}></div>
                        </div>
             })
         );

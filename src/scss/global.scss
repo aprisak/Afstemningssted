@@ -1,15 +1,22 @@
-html {
+body {
+    background-color: #f6f6ff;
+}
+
+.App {
     height: 100%;
 }
 
 .wrap{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 1em;
 }
 
 #primary{
     max-width: 650px;
     margin: 0 auto;
+    padding: 0 1em 0;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    border: 1px solid white;
 }
 

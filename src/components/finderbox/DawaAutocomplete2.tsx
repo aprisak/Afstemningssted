@@ -96,9 +96,9 @@ function DawaAutocomplete2(props: Props) {
 
     return (
         <div className="autocomplete-container" ref={containerEl}>
-            <FormControl sx={{ width: '650px' }} variant="filled">
+            <FormControl className="addresscontrol" variant="filled">
                 <InputLabel htmlFor="filled-adornment-address">Din adresse</InputLabel>
-                <FilledInput
+                <FilledInput className="addressinput"
                     id="filled-adornment-address"
                     type='text'
                     inputRef={inputEl}

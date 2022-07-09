@@ -1,13 +1,21 @@
 .finderbox {
-  border: 1px black;
-  align-content: center;
+
+}
+.addresscontrol {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.addressinput {
+  width: 100%;
+  max-width: 1200px;
 }
 
 .autocomplete-container {
   /* relative position for at de absolut positionerede forslag får korrekt placering.*/
   position: relative;
   width: 100%;
-  max-width: 30em;
+  max-width: 50em;
 }
 
 .autocomplete-container ul {

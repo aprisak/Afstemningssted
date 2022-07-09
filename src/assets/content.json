@@ -1,14 +1,20 @@
 {
-  "sections": {
-    "section": {
-      "intro": {
-        "title": "Dit afstemningssted er baseret på din addresse",
-        "content": "<p>bla blab<\p>"
-      },
-      "section": {
-        "title": "Falafel",
-        "content": "lalalala"
-      }
+  "sections": [
+    {
+      "title": "Kan jeg stemme uden valgkort?",
+      "content": "Ja, du kan godt stemme uden valgkort. Når du møder op på valgstedet vil du blive givet et erstatnings valgkort af valgsekretæren. Det er i den sammenhæng en god ide at medbringe legitimation i form af et kørekort, sygesikringsbevis, pas eller andet for at gør det nemt at verficer din identitet."
+    },
+    {
+      "title": "Hvorfor kan jeg ikke bare møde op på et tilfældigt afstemningssted?",
+      "content": "Det er ikke muligt at møde op et hvilken som helst sted, da det vil åbne for muligheden for at afgive stemme flere gange. I dag er Danmark delt op i afstemningsområder med hver et afstemningssted. Som en del af forberedelserne til et valg bliver der dannet en valgliste for hvert område. Valglister indeholder alle de stemmeberetiged som bor i område. Dette er med til at sikre at en vælger kun er på en valgliste og dermed kun kan afgive en stemme til valget."
+    },
+    {
+      "title": "Kan jeg få ændret mit afstemningssted?",
+      "content": "Ja det kan man godt, men man kan kun få det gjort i meget specifike omstændighed. Du skal kontakte borgercenter i din kommune i god tid før valgdagen."
+    },
+    {
+      "title": "Jeg har ikke en fast adresse eller har stærk adresse beskyttelse",
+      "content": "Hvis du ikke har en fast addresse, er du stadig tilknyttede en kommune. Kommunen vælger et afstemningssted hvor alle uden fast adresse skal stemme. Det samme gælder hvis du har stærk adresse beskyttelse. I begge tilfælde skal du henvende dig til din kommune for at få at vide hvor du skal stemme."
     }
-  }
+  ]
 }
