@@ -1,6 +1,15 @@
-# Getting Started with Create React App
+# Find your polling station (Afstemningssted) Web Page 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is intended to help voters in Denmark find their polling station, if they have 
+lost or not received their voter card via mail. This page uses data publicly available via 
+Dataforsyningen and DAWA for autocompleting addresses in Denmark. The page is available here:
+[https://aprisak.github.io/Afstemningssted/](https://aprisak.github.io/Afstemningssted/).
+
+This is also my first try at using React to build a Web Page, so please comment if you see things 
+that can be improved.
+
+For the DAWA autocomplete I have modified the code available here under the MIT license: 
+[https://github.com/DanmarksAdresser/dawa-autocomplete2](https://github.com/DanmarksAdresser/dawa-autocomplete2)
 
 ## Available Scripts
 
@@ -29,9 +38,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## License
+Copyright © 2022 Anders Prisak
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Distributed under the [MIT license](https://opensource.org/licenses/MIT).
