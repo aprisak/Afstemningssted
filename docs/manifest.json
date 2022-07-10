@@ -1,0 +1,25 @@
+{
+  "short_name": "´Mit Afstemningssted",
+  "name": "Hvor skal jeg stemme",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "199px-Vote_icon.svg.png",
+      "type": "image/png",
+      "sizes": "199x240"
+    },
+    {
+      "src": "637px-Vote_icon.svg.png",
+      "type": "image/png",
+      "sizes": "637x768"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
