@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2adad368.css",
-    "main.js": "/static/js/main.7e525ac3.js",
-    "static/js/787.5815d8c0.chunk.js": "/static/js/787.5815d8c0.chunk.js",
-    "static/media/Vote_icon.svg": "/static/media/Vote_icon.87d8648171102d1f4ffb87fac3f6ca71.svg",
-    "index.html": "/index.html",
-    "main.2adad368.css.map": "/static/css/main.2adad368.css.map",
-    "main.7e525ac3.js.map": "/static/js/main.7e525ac3.js.map",
-    "787.5815d8c0.chunk.js.map": "/static/js/787.5815d8c0.chunk.js.map"
+    "main.css": "/Afstemningssted/static/css/main.2adad368.css",
+    "main.js": "/Afstemningssted/static/js/main.ecce9674.js",
+    "static/js/787.5815d8c0.chunk.js": "/Afstemningssted/static/js/787.5815d8c0.chunk.js",
+    "static/media/Vote_icon.svg": "/Afstemningssted/static/media/Vote_icon.87d8648171102d1f4ffb87fac3f6ca71.svg",
+    "index.html": "/Afstemningssted/index.html",
+    "main.2adad368.css.map": "/Afstemningssted/static/css/main.2adad368.css.map",
+    "main.ecce9674.js.map": "/Afstemningssted/static/js/main.ecce9674.js.map",
+    "787.5815d8c0.chunk.js.map": "/Afstemningssted/static/js/787.5815d8c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2adad368.css",
-    "static/js/main.7e525ac3.js"
+    "static/js/main.ecce9674.js"
   ]
 }

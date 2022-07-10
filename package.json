@@ -1,6 +1,7 @@
 {
   "name": "afstemningssted",
   "version": "0.1.0",
+  "homepage": "/Afstemningssted/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
